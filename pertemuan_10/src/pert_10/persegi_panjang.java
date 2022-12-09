@@ -25,9 +25,9 @@ public class persegi_panjang extends bangundatar{
 	public int getLuas() {
 		int luas;
 
-		luas = this.panjang * this.lebar;
+		luas =  this.panjang * this.lebar;
 		return(luas);
-	}
+        }
 }
  
 

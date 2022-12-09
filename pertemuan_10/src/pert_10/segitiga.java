@@ -9,23 +9,25 @@ package pert_10;
  *
  * @author JULIUS HUTABARAT
  */
+
+
+import java.util.Scanner;
 public class segitiga extends bangundatar{
-     private int alas, tinggi;
-     
     
-        public void setAlas(int alas) {
-		this.alas = alas;
-	}
-
-	public void setTinggi(int tinggi) {
-		this.tinggi = tinggi;
-	}   
-         
-         
-    public int getLuas() {
-		int luas;
-
-		luas = this.tinggi * this.alas ;
-		return(luas);
-	}
-}
+    {
+	double alas, tinggi, luas;
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.println();
+        alas = scan.nextDouble();
+        System.out.println();
+        tinggi = scan.nextDouble();
+ 
+        
+        luas = 0.5 * alas * tinggi;
+ 
+        
+        System.out.println("luas segitiga adalah: " + luas);
+    }
+     }
+     
